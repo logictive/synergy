@@ -1,0 +1,94 @@
+button {
+  background-color: transparent;
+}
+
+.btn {
+  border: 2px solid transparent;
+  border-bottom-color: $brand-primary;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0.5rem 2rem 0.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.125rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.25rem;
+  }
+
+  @include hover-focus {
+    color: $brand-primary;
+    border-bottom-color: rgba(white, 0.6);
+  }
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.5rem 2rem 0.25rem;
+}
+
+.btn-primary {
+  border-color: rgba($gray-dark, 0.6);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.45);
+
+  @include hover-focus {
+    border-color: rgba($gray-dark, 0.6);
+    color: white;
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.btn-lg {
+  padding: 0.75rem 2rem 0.5rem;
+  font-size: 1.125rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.25rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.55rem;
+  }
+}
+
+.btn-secondary {
+  background: rgba(0,0,0,0.2);
+  border-color: rgba(0,0,0,0.2);
+  color: white;
+
+  @include hover-focus {
+    background: rgba(0,0,0,0.4);
+    border-color: rgba(0,0,0,0.4);
+    color: white;
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.btn-inverse {
+  background: rgba(0,0,0,0.25);
+  border-color: white;
+  color: white;
+
+  @include hover-focus {
+    background: rgba(0,0,0,0.5);
+    border-color: white;
+    color: white;
+  }
+}
+
+.btn-outline-inverse {
+  border-color: white;
+  color: white;
+
+  @include hover-focus {
+    background: white;
+    color: $brand-primary;
+  }
+}

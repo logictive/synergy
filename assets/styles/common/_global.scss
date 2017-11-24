@@ -1,0 +1,19 @@
+body {
+   background: $accent-1 url(../images/site-bg@2x.png) no-repeat center center fixed;
+   background-size: cover;
+   font-weight: 300;
+}
+
+@media
+  (min-width: 375px) and (max-width: 400px),
+  (min-width: 468px),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  body {
+    background-image: url(../images/site-bg@2x.png);
+  }
+}
+
+img {
+  height: auto;
+}

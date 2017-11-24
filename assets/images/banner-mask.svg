@@ -1,0 +1,7 @@
+<svg preserveAspectRatio="none" viewBox="0 0 800 400" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <filter id="blur">
+  	<feGaussianBlur stdDeviation="12"></feGaussianBlur>
+  </filter>
+  <path id="mask" filter="url(#blur)" fill="#000000" d="M0.5,57.5c16-13,224.4,28,399,28s387-42,406-24s0,77-5,153s-4,123-35,145s-98,8-227,5
+    c-54.9-1.3-141.5,7.4-232,9c-55.1,1-123.3-2.6-168-4c-54.5-1.7-89.5,1.5-99-8c-26.7-26.7-37-82-40-155S-15.5,70.5,0.5,57.5z"/>
+</svg>

@@ -1,0 +1,89 @@
+/**
+ * Font Rendering
+ */
+body, button, input, textarea {
+  //text-rendering: optimizeLegibility;
+  //-webkit-font-smoothing: antialiased;
+  //-moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: $font-family-base;
+}
+
+/**
+ * Headings
+ */
+h1, h2 {
+  font-family: $font-family-heading;
+  line-height: 1.1em;
+}
+
+h3, h4, h5, h6 {
+  line-height: 1.2em
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.4);
+
+  @include media-breakpoint-up(md) {
+    font-size: 4.5rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 5.5rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  position: relative;
+  font-style: italic;
+  margin: 2rem 0;
+
+  &:after {
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    height: 1px;
+    width: 14rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    font-size: 2.25rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+  font-weight: 700;
+
+  @include media-breakpoint-up(md) {
+
+  }
+}
+
+
+/**
+ * Paragraph
+ */
+
+p {
+  font-size: 1rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.125rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.25rem;
+  }
+}
+
