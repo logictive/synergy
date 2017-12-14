@@ -86,6 +86,10 @@
       &:nth-child(7n) {
         @include make-col(8);
 
+        .event__inner {
+          flex-direction: row;
+        }
+
         .event__image {
           width: 50%;
 
@@ -93,6 +97,10 @@
             @include object-fit(cover, center);
             height: 100%;
           }
+        }
+
+        .event__content {
+          width: 50%;
         }
       }
     }
@@ -104,7 +112,7 @@
   }
 
     .event__content {
-      flex: 1;
+      flex: 1 1 auto;
     }
 
     .event__meta {

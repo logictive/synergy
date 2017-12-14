@@ -14,12 +14,12 @@
     <?php if ( !empty( rwmb_meta( 'banner__button__text--primary' ) ) ) : ?>
       <div class="row">
         <div class="col-12 col-md-6">
-          <a href="<?php echo rwmb_meta( 'banner__button__link--primary' ); ?>" class="btn btn-primary btn-lg banner__button btn-block banner__button--primary">
+          <a href="<?php echo rwmb_meta( 'banner__button__url--primary' ); ?>" class="btn btn-primary btn-lg banner__button btn-block banner__button--primary">
             <?php echo rwmb_meta( 'banner__button__text--primary' ); ?>
           </a>
         </div>
         <div class="col-12 col-md-6">
-          <a href="<?php echo rwmb_meta( 'banner__button__link--secondary' ); ?>" class="btn btn-inverse btn-lg btn-block banner__button banner__button--secondary">
+          <a href="<?php echo rwmb_meta( 'banner__button__url--secondary' ); ?>" class="btn btn-inverse btn-lg btn-block banner__button banner__button--secondary">
             <?php echo rwmb_meta( 'banner__button__text--secondary' ); ?>
           </a>
         </div>
