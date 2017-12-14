@@ -15,17 +15,17 @@
     </nav>
     <ul class="page-head__social">
       <li class="page-head__social--youtube">
-        <a href="#" aria-label="YouTube">
+        <a href="<?php echo rwmb_meta( 'social--youtube', null, 2 ) ?>" target="_blank" aria-label="YouTube">
           <i class="fa fa-youtube-play" aria-hidden="true"></i>
         </a>
       </li>
       <li class="page-head__social--facebook">
-        <a href="#" aria-label="Facebook">
+        <a href="<?php echo rwmb_meta( 'social--facebook', null, 2 ) ?>" target="_blank" aria-label="Facebook">
           <i class="fa fa-facebook" aria-hidden="true"></i>
         </a>
       </li>
       <li class="page-head__social--twitter">
-        <a href="#" aria-label="Twitter">
+        <a href="<?php echo rwmb_meta( 'social--twitter', null, 2 ) ?>" target="_blank" aria-label="Twitter">
           <i class="fa fa-twitter" aria-hidden="true"></i>
         </a>
       </li>
